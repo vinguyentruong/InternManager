@@ -8,17 +8,16 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+class StudentCell: UITableViewCell {
+    
+    @IBOutlet weak var avatarImg: UIImageView!
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var classLbl: UILabel!
+    @IBOutlet weak var idLbl: UILabel!
+    func configUI(student: Student) {
+        avatarImg.image = student.avatar as? UIImage
+        nameLbl.text = nameLbl.text! + student.name!
+        classLbl.text = classLbl.text! + (student.toClass?.name!)!
+        idLbl.text = idLbl.text! + student.id!
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

@@ -10,15 +10,11 @@ import UIKit
 
 class ClassCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var studentCountLbl: UILabel!
+    
+    func configUI(classObj: Class) {
+        nameLbl.text = classObj.name
+        studentCountLbl.text = studentCountLbl.text!+"\(classObj.toStudent?.count ?? 0)"
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

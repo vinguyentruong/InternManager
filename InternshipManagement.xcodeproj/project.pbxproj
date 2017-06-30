@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54834042FCCAB107CA13D540 /* Pods_InternshipManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE19DEEDEB16D04C1427834 /* Pods_InternshipManagement.framework */; };
+		F76F35891F04BD3300C6DEAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F76F35881F04BD3300C6DEAF /* GoogleService-Info.plist */; };
+		F79817731F02507600DFFC93 /* SignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79817721F02507600DFFC93 /* SignVC.swift */; };
+		F79817751F02552E00DFFC93 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79817741F02552E00DFFC93 /* LoginVC.swift */; };
+		F79817771F02568F00DFFC93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79817761F02568F00DFFC93 /* User.swift */; };
+		F7F6E5821F0389EE00FB66EC /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6E5811F0389EE00FB66EC /* Mentor.swift */; };
+		F7F6E5851F038ABC00FB66EC /* MentorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6E5841F038ABC00FB66EC /* MentorModel.swift */; };
+		F7F6E5871F03913F00FB66EC /* MentorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6E5861F03913F00FB66EC /* MentorVC.swift */; };
+		F7F6E5891F03923000FB66EC /* MentorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6E5881F03923000FB66EC /* MentorCell.swift */; };
+		F7F6E58B1F0395ED00FB66EC /* AddMentorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F6E58A1F0395ED00FB66EC /* AddMentorVC.swift */; };
 		F7FC76331F00C1AB00CE3D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76321F00C1AB00CE3D79 /* AppDelegate.swift */; };
-		F7FC76351F00C1AB00CE3D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76341F00C1AB00CE3D79 /* ViewController.swift */; };
 		F7FC76381F00C1AB00CE3D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FC76361F00C1AB00CE3D79 /* Main.storyboard */; };
 		F7FC763B1F00C1AB00CE3D79 /* InternshipManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76391F00C1AB00CE3D79 /* InternshipManagement.xcdatamodeld */; };
 		F7FC763D1F00C1AB00CE3D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FC763C1F00C1AB00CE3D79 /* Assets.xcassets */; };
 		F7FC76401F00C1AB00CE3D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FC763E1F00C1AB00CE3D79 /* LaunchScreen.storyboard */; };
+		F7FC76541F00C65100CE3D79 /* Class+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76501F00C65100CE3D79 /* Class+CoreDataClass.swift */; };
+		F7FC76551F00C65100CE3D79 /* Class+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76511F00C65100CE3D79 /* Class+CoreDataProperties.swift */; };
+		F7FC76561F00C65100CE3D79 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76521F00C65100CE3D79 /* Student+CoreDataClass.swift */; };
+		F7FC76571F00C65100CE3D79 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76531F00C65100CE3D79 /* Student+CoreDataProperties.swift */; };
+		F7FC765A1F00C87100CE3D79 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76591F00C87100CE3D79 /* StudentModel.swift */; };
+		F7FC765F1F00F0EA00CE3D79 /* ListStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC765E1F00F0EA00CE3D79 /* ListStudentVC.swift */; };
+		F7FC76621F00F3C600CE3D79 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76611F00F3C600CE3D79 /* StudentCell.swift */; };
+		F7FC76641F01013100CE3D79 /* ClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76631F01013100CE3D79 /* ClassCell.swift */; };
+		F7FC766A1F01045400CE3D79 /* ClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC76691F01045400CE3D79 /* ClassVC.swift */; };
+		F7FC766C1F01060F00CE3D79 /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC766B1F01060F00CE3D79 /* AddStudentVC.swift */; };
+		F7FC766E1F01084200CE3D79 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC766D1F01084200CE3D79 /* ClassModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43ECB3541F0172990D87E52C /* Pods-InternshipManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternshipManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InternshipManagement/Pods-InternshipManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE19DEEDEB16D04C1427834 /* Pods_InternshipManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternshipManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68871405948675DC6CB4A49C /* Pods-InternshipManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternshipManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-InternshipManagement/Pods-InternshipManagement.release.xcconfig"; sourceTree = "<group>"; };
+		F76F35881F04BD3300C6DEAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F79817721F02507600DFFC93 /* SignVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignVC.swift; sourceTree = "<group>"; };
+		F79817741F02552E00DFFC93 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F79817761F02568F00DFFC93 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7F6E5811F0389EE00FB66EC /* Mentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mentor.swift; path = Model/Mentor.swift; sourceTree = "<group>"; };
+		F7F6E5841F038ABC00FB66EC /* MentorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorModel.swift; sourceTree = "<group>"; };
+		F7F6E5861F03913F00FB66EC /* MentorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorVC.swift; sourceTree = "<group>"; };
+		F7F6E5881F03923000FB66EC /* MentorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorCell.swift; sourceTree = "<group>"; };
+		F7F6E58A1F0395ED00FB66EC /* AddMentorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMentorVC.swift; sourceTree = "<group>"; };
 		F7FC762F1F00C1AA00CE3D79 /* InternshipManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternshipManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FC76321F00C1AB00CE3D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7FC76341F00C1AB00CE3D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7FC76371F00C1AB00CE3D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7FC763A1F00C1AB00CE3D79 /* InternshipManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InternshipManagement.xcdatamodel; sourceTree = "<group>"; };
 		F7FC763C1F00C1AB00CE3D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7FC763F1F00C1AB00CE3D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7FC76411F00C1AC00CE3D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7FC76501F00C65100CE3D79 /* Class+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Class+CoreDataClass.swift"; path = "Model/Class+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F7FC76511F00C65100CE3D79 /* Class+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Class+CoreDataProperties.swift"; path = "Model/Class+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F7FC76521F00C65100CE3D79 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataClass.swift"; path = "Model/Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F7FC76531F00C65100CE3D79 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataProperties.swift"; path = "Model/Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F7FC76591F00C87100CE3D79 /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentModel.swift; path = Model/StudentModel.swift; sourceTree = "<group>"; };
+		F7FC765E1F00F0EA00CE3D79 /* ListStudentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListStudentVC.swift; sourceTree = "<group>"; };
+		F7FC76611F00F3C600CE3D79 /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		F7FC76631F01013100CE3D79 /* ClassCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCell.swift; sourceTree = "<group>"; };
+		F7FC76691F01045400CE3D79 /* ClassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassVC.swift; sourceTree = "<group>"; };
+		F7FC766B1F01060F00CE3D79 /* AddStudentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
+		F7FC766D1F01084200CE3D79 /* ClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54834042FCCAB107CA13D540 /* Pods_InternshipManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482DF4CCEB1B3D9D39F03CF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43ECB3541F0172990D87E52C /* Pods-InternshipManagement.debug.xcconfig */,
+				68871405948675DC6CB4A49C /* Pods-InternshipManagement.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5A1DED20E24D33AE8F5710C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EE19DEEDEB16D04C1427834 /* Pods_InternshipManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F6E5831F038A5F00FB66EC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F7F6E5811F0389EE00FB66EC /* Mentor.swift */,
+				F79817761F02568F00DFFC93 /* User.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
 		F7FC76261F00C1AA00CE3D79 = {
 			isa = PBXGroup;
 			children = (
 				F7FC76311F00C1AB00CE3D79 /* InternshipManagement */,
 				F7FC76301F00C1AA00CE3D79 /* Products */,
+				482DF4CCEB1B3D9D39F03CF8 /* Pods */,
+				C5A1DED20E24D33AE8F5710C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +127,57 @@
 		F7FC76311F00C1AB00CE3D79 /* InternshipManagement */ = {
 			isa = PBXGroup;
 			children = (
+				F7FC76601F00F3A600CE3D79 /* view */,
+				F7FC765B1F00F08700CE3D79 /* controller */,
+				F7FC76471F00C4CF00CE3D79 /* Model */,
 				F7FC76321F00C1AB00CE3D79 /* AppDelegate.swift */,
-				F7FC76341F00C1AB00CE3D79 /* ViewController.swift */,
 				F7FC76361F00C1AB00CE3D79 /* Main.storyboard */,
 				F7FC763C1F00C1AB00CE3D79 /* Assets.xcassets */,
 				F7FC763E1F00C1AB00CE3D79 /* LaunchScreen.storyboard */,
 				F7FC76411F00C1AC00CE3D79 /* Info.plist */,
 				F7FC76391F00C1AB00CE3D79 /* InternshipManagement.xcdatamodeld */,
+				F76F35881F04BD3300C6DEAF /* GoogleService-Info.plist */,
 			);
 			path = InternshipManagement;
+			sourceTree = "<group>";
+		};
+		F7FC76471F00C4CF00CE3D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7F6E5831F038A5F00FB66EC /* Entity */,
+				F7FC766D1F01084200CE3D79 /* ClassModel.swift */,
+				F7FC76591F00C87100CE3D79 /* StudentModel.swift */,
+				F7F6E5841F038ABC00FB66EC /* MentorModel.swift */,
+				F7FC76501F00C65100CE3D79 /* Class+CoreDataClass.swift */,
+				F7FC76511F00C65100CE3D79 /* Class+CoreDataProperties.swift */,
+				F7FC76521F00C65100CE3D79 /* Student+CoreDataClass.swift */,
+				F7FC76531F00C65100CE3D79 /* Student+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F7FC765B1F00F08700CE3D79 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC765E1F00F0EA00CE3D79 /* ListStudentVC.swift */,
+				F7FC76691F01045400CE3D79 /* ClassVC.swift */,
+				F7FC766B1F01060F00CE3D79 /* AddStudentVC.swift */,
+				F79817721F02507600DFFC93 /* SignVC.swift */,
+				F79817741F02552E00DFFC93 /* LoginVC.swift */,
+				F7F6E5861F03913F00FB66EC /* MentorVC.swift */,
+				F7F6E58A1F0395ED00FB66EC /* AddMentorVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		F7FC76601F00F3A600CE3D79 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC76611F00F3C600CE3D79 /* StudentCell.swift */,
+				F7FC76631F01013100CE3D79 /* ClassCell.swift */,
+				F7F6E5881F03923000FB66EC /* MentorCell.swift */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7FC76441F00C1AC00CE3D79 /* Build configuration list for PBXNativeTarget "InternshipManagement" */;
 			buildPhases = (
+				C7026DCB6F200ECF2149FDD9 /* [CP] Check Pods Manifest.lock */,
 				F7FC762B1F00C1AA00CE3D79 /* Sources */,
 				F7FC762C1F00C1AA00CE3D79 /* Frameworks */,
 				F7FC762D1F00C1AA00CE3D79 /* Resources */,
+				A2EA650F7F6A170CB044B8D4 /* [CP] Embed Pods Frameworks */,
+				21289402B75D7D07EC9C533A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +215,7 @@
 				TargetAttributes = {
 					F7FC762E1F00C1AA00CE3D79 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PRXU27D477;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FC76401F00C1AB00CE3D79 /* LaunchScreen.storyboard in Resources */,
+				F76F35891F04BD3300C6DEAF /* GoogleService-Info.plist in Resources */,
 				F7FC763D1F00C1AB00CE3D79 /* Assets.xcassets in Resources */,
 				F7FC76381F00C1AB00CE3D79 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +252,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21289402B75D7D07EC9C533A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InternshipManagement/Pods-InternshipManagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2EA650F7F6A170CB044B8D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InternshipManagement/Pods-InternshipManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7026DCB6F200ECF2149FDD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7FC762B1F00C1AA00CE3D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7FC76351F00C1AB00CE3D79 /* ViewController.swift in Sources */,
+				F7FC76551F00C65100CE3D79 /* Class+CoreDataProperties.swift in Sources */,
+				F7FC766A1F01045400CE3D79 /* ClassVC.swift in Sources */,
+				F7FC76561F00C65100CE3D79 /* Student+CoreDataClass.swift in Sources */,
+				F79817731F02507600DFFC93 /* SignVC.swift in Sources */,
+				F79817771F02568F00DFFC93 /* User.swift in Sources */,
+				F7FC76641F01013100CE3D79 /* ClassCell.swift in Sources */,
 				F7FC763B1F00C1AB00CE3D79 /* InternshipManagement.xcdatamodeld in Sources */,
+				F7FC76541F00C65100CE3D79 /* Class+CoreDataClass.swift in Sources */,
+				F7FC76621F00F3C600CE3D79 /* StudentCell.swift in Sources */,
+				F7FC765A1F00C87100CE3D79 /* StudentModel.swift in Sources */,
 				F7FC76331F00C1AB00CE3D79 /* AppDelegate.swift in Sources */,
+				F7FC76571F00C65100CE3D79 /* Student+CoreDataProperties.swift in Sources */,
+				F7FC766C1F01060F00CE3D79 /* AddStudentVC.swift in Sources */,
+				F7F6E5871F03913F00FB66EC /* MentorVC.swift in Sources */,
+				F7FC766E1F01084200CE3D79 /* ClassModel.swift in Sources */,
+				F7FC765F1F00F0EA00CE3D79 /* ListStudentVC.swift in Sources */,
+				F7F6E5891F03923000FB66EC /* MentorCell.swift in Sources */,
+				F79817751F02552E00DFFC93 /* LoginVC.swift in Sources */,
+				F7F6E58B1F0395ED00FB66EC /* AddMentorVC.swift in Sources */,
+				F7F6E5851F038ABC00FB66EC /* MentorModel.swift in Sources */,
+				F7F6E5821F0389EE00FB66EC /* Mentor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +448,10 @@
 		};
 		F7FC76451F00C1AC00CE3D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43ECB3541F0172990D87E52C /* Pods-InternshipManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PRXU27D477;
 				INFOPLIST_FILE = InternshipManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cTeck.InternshipManagement;
@@ -276,8 +462,10 @@
 		};
 		F7FC76461F00C1AC00CE3D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68871405948675DC6CB4A49C /* Pods-InternshipManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PRXU27D477;
 				INFOPLIST_FILE = InternshipManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cTeck.InternshipManagement;
@@ -305,6 +493,7 @@
 				F7FC76461F00C1AC00CE3D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
